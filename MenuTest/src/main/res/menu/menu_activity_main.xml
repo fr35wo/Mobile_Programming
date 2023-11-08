@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> <!-- app정의 -->
+
+    <item android:id="@+id/menuNew"
+        android:icon="@mipmap/ic_launcher"
+        android:title="New"
+        app:showAsAction="ifRoom" />  <!-- 컨텍스트메뉴 액션 모드? -->
+
+    <item android:id="@+id/menuOpen"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Open" />
+
+</menu>
