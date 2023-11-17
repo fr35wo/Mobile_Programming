@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/tvName"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:inputType="text"
+                android:hint="Name" />
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:text="Address" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:inputType="text"
+            android:hint="Address" />
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btOk"
+                android:text="확인" />
+
+            <Button
+                android:id="@+id/btCancel"
+                android:text="취소" />
+        </TableRow>
+
+    </TableLayout>
