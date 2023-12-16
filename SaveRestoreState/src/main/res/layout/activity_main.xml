@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cbPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="피자" />
+
+    <CheckBox
+        android:id="@+id/cbSpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스파게티" />
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+ />
+
+    <Button
+        android:id="@+id/btIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="증가" />
+
+    <Button
+        android:id="@+id/btDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="감소" />
+
+</LinearLayout>
