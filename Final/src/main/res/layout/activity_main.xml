@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btNoticeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NoticeDialog" />
+
+    <Button
+        android:id="@+id/btListMaintainDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListMaintainDialog" />
+
+    <Button
+        android:id="@+id/btLoginDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoginDialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ExtraText"
+        >
+
+        <EditText
+            android:id="@+id/etItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:hint="Add an item"/>
+
+        <Button
+            android:id="@+id/btAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <CheckBox
+        android:id="@+id/cbPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <TextView
+        android:id="@+id/tvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="증가" />
+
+    <Button
+        android:id="@+id/btDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="감소" />
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity" />
+
+    <TextView
+        android:id="@+id/tvMainResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World" />
+
+    <Button
+        android:id="@+id/btMainCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call SubActivity" />
+
+    <Button
+        android:id="@+id/btDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download" />
+
+
+</LinearLayout>
